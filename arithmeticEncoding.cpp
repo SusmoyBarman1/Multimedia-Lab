@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void RLE(string str)
+void arithmeticCoding(string str)
 {
 	int len = 0;
 	int checkASCII[256] = {0};
@@ -64,7 +64,7 @@ int main()
 {
 	string str;
 	getline(cin, str);
-	RLE(str);
+	arithmeticCoding(str);
 	
 	return 0;
 }
