@@ -21,7 +21,7 @@ void arithmeticCoding(string str)
 		if(checkASCII[i] > 0)
 		{
 			probabilityCH[i] = checkASCII[i] / (double)len;
-			printf("%c%d, probability: %lf\n", i, checkASCII[i], probabilityCH[i]);
+			printf("%c, frequency=%d, probability: %lf\n", i, checkASCII[i], probabilityCH[i]);
 		}
 	}
 	
@@ -45,7 +45,7 @@ void arithmeticCoding(string str)
 				if(chStr == i)
 				{
 					diff = upper - lower;
-					printf("\nLooking for new character.....\n\n");
+					printf("\nCalculating New step.....\n\n");
 					break;
 				}
 				else
@@ -62,7 +62,11 @@ void arithmeticCoding(string str)
 
 int main()
 {
+	freopen("arithmeticInput.txt", "r", stdin);
+	freopen("arithmeticOutput.txt", "w", stdout);
+	
 	string str;
+	//cout<<"Enter message: ";
 	getline(cin, str);
 	arithmeticCoding(str);
 	

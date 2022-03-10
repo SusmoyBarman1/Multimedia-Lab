@@ -1,0 +1,37 @@
+A, frequency=2, probability: 0.500000
+B, frequency=1, probability: 0.250000
+C, frequency=1, probability: 0.250000
+
+diff = 1.000000
+
+ch=A, lower=0.000000, upper=0.500000, tempUpper=0.000000
+ch=B, lower=0.500000, upper=0.750000, tempUpper=0.500000
+
+Calculating New step.....
+
+
+diff = 0.250000
+
+ch=A, lower=0.500000, upper=0.625000, tempUpper=0.500000
+
+Calculating New step.....
+
+
+diff = 0.125000
+
+ch=A, lower=0.500000, upper=0.562500, tempUpper=0.500000
+ch=B, lower=0.562500, upper=0.593750, tempUpper=0.562500
+ch=C, lower=0.593750, upper=0.625000, tempUpper=0.593750
+
+Calculating New step.....
+
+
+diff = 0.031250
+
+ch=A, lower=0.593750, upper=0.609375, tempUpper=0.593750
+
+Calculating New step.....
+
+
+
+The Codeword is between [0.593750, 0.609375)
