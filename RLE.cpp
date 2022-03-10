@@ -23,12 +23,16 @@ void RLE(string str)
 		}
 	}
 	
-	printf("\n\nDone\n");
+	//printf("\n\nDone\n");
 }
 
 int main()
-{
+{	
+	freopen("rleInput.txt", "r", stdin);
+	freopen("rleOutput.txt", "w", stdout);
+	
 	string str;
+	//cout<<"Enter Message: ";
 	getline(cin, str);
 	RLE(str);
 	
